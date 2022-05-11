@@ -32,6 +32,7 @@ body {
 
   a {
     list-style: none;
+    text-decoration: none;
   }
 
   li {
@@ -88,6 +89,7 @@ body {
     text-align: center;
   }
 
+
   .interests {
     font-size: 50px;
     color: #666666;
@@ -100,4 +102,21 @@ body {
 
   i:hover {
     color: #666666;
+  }
+
+  @media (max-width: 540px) {
+    .interests {
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    .links {
+      font-size: 25px;
+      margin: 2px;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
   }
