@@ -1,81 +1,103 @@
 body {
-background: #F7F9FC;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
+  background: #F7F9FC;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
 
-img {
-  height: 17%;
-  width: 17%;
-  border-radius: 50%;
-  background: linear-gradient(#fff, #fff) padding-box,
-  linear-gradient(45deg, purple, orange) border-box;
-  border: 7px solid transparent;
-  padding: 5px 5px;
-}
+  img {
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, purple, orange) border-box;
+    border: 7px solid transparent;
+    padding: 5px 5px;
+  }
 
-h1, h2, p {
-  color:#000000
-}
+  h1, h2, p {
+    color:#000000
+  }
 
-h1 {
-  font-size: 25px;
-}
+  h1 {
+    font-size: 25px;
+  }
 
-h2 {
-  font-size: 20px;
-}
+  h2 {
+    font-size: 20px;
+  }
 
-p {
-  font-size: 15px;
-  padding: 20px;
-}
+  p {
+    font-size: 15px;
+    padding: 20px;
+  }
 
-a {
-  list-style-type: none;
-}
+  a {
+    list-style: none;
+  }
 
-li {
-  display: inline-block;
-  padding: 0px 30px;
-  list-style-type: none;
-}
-ul{
-  padding: 0px;
-}
+  li {
+    display: inline-block;
+    padding: 0px 30px;
+    list-style: none;
+  }
+  ul{
+    padding: 0px;
+  }
 
-.link-wagon {
-  background-color: #ee3232;
-  padding: 15px 20px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
-}
+  .link-wagon {
+    background-color: #ee3232;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  }
 
-.container {
-  width: 700px;
-  margin: 40px auto;
-  display: block;
-}
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
 
-.card-white {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
-}
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
 
-.interests {
-  font-size: 50px;
-  color: #666666;
-}
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
 
-.links {
-  font-size: 40px;
-  color: #666666;
-}
+  .container {
+    /*width: 700px;*/
+    margin: 40px auto;
+    display: block;
+    padding: 0 15%;
+  }
 
-i:hover {
-  color: #666666;
-}
+  .card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .interests {
+    font-size: 50px;
+    color: #666666;
+  }
+
+  .links {
+    font-size: 40px;
+    color: #666666;
+  }
+
+  i:hover {
+    color: #666666;
+  }
