@@ -1,0 +1,22 @@
+#about h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45505b;
+}
+
+.about .text {
+    font-size: 24px;
+    padding-left: 42px;
+    color: #45505b !important;
+}
+
+.about .text a {
+    text-decoration: none !important;
+    color: #45505b !important;
+}
+
+.about .text a:hover {
+    color: orange !important;
+}
